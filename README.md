@@ -1,4 +1,4 @@
-# 🚗 Otonom Araç Güvenlik Modülü — SVM Navigasyon
+# Otonom Araç Güvenlik Modülü — SVM Navigasyon
 
 **Algoritma Analizi ve Tasarımı Dersi | Java 17**
 
@@ -6,7 +6,7 @@ Otonom bir araç navigasyon sisteminde, iki sınıf engel koordinatını **en ge
 
 ---
 
-## 📐 Matematiksel Model
+## Matematiksel Model
 İki sınıfı birbirinden ayıran, her iki sınıfa da eşit uzaklıktaki karar sınırını (`w·x + b = 0`) bulmayı hedefler.
 
 * **Optimizasyon:** $\min \frac{1}{2} \|w\|^2$
@@ -15,7 +15,7 @@ Otonom bir araç navigasyon sisteminde, iki sınıf engel koordinatını **en ge
 
 ---
 
-## ⚙️ Teknik Özellikler
+## Teknik Özellikler
 * **Algoritma:** SMO (Sequential Minimal Optimization) - $O(n^2 \cdot iter)$
 * **Mimari:** Strategy Pattern (Kernel yönetimi), Factory Pattern (Veri seti üretimi)
 * **Bellek:** Kernel önbellekleme (Caching) ile $O(n^2)$ performans.
@@ -30,7 +30,7 @@ Otonom bir araç navigasyon sisteminde, iki sınıf engel koordinatını **en ge
 
 ---
 
-## 📂 Proje Yapısı
+## Proje Yapısı
 ```text
 src/svm/
 ├── model/           # DataPoint, SVMResult (Immutable)
